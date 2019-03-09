@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>e-Birthday Card</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts/feathericon/css/feathericon.min.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<header class="bp-header cf">
+			<span style="font-size:20px;">สวัสดีครับคุณป้า</span>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center button--zoom2">
+						<img class="zoomer__image" src="images/iphone.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/gorgeous_smile_bg_preview_sp.png" alt="preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Aunt</span> GiinG</h2>
+			</div>
+			
+			<nav class="slider__nav">
+				<button class="button button--zoom"><i class="icon icon--zoom color-green"></i><span class="text-hidden">View details</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<!-- <canvas id="birthday"></canvas> -->
+				<img class="content__item-img rounded-right" src="images/g.jpg" alt="" />
+				<div class="content__item-inner">
+					<h3>ไม่มีไรมากแค่อยากอวยพรวันเกิด เฉยๆ</h3>
+					<p>
+						ขอให้พี่กิ๊ง สวยๆ รวยๆ คูลๆ มีคนพาไปเลี้ยงหมูกระทะทุกเดือน
+						เจองานยากงานยุ่งก็ขอให้ผ่านไปได้ด้วยดีและขอให้ได้รองเท้าที่อยากได้ในราคาที่ถูกใจ
+						อะไรที่ผ่านไปแล้วที่เจออะไรที่มันแย่ๆ ก็ขอให้ไม่เจอแบบนั้นอีก คิดอะไรก็สมหวังทุกอย่างมันดูเพ้อเจ้อเกินไป
+						เอาเป็นว่าคิดอะไรแล้วลงมือทำก็ขอให้เจอสิ่งที่ช่วยเกื้อกูลให้ถึงเป้าหมายอย่างราบรื่นแล้วกัน
+					</p>
+					<p>ผมแอบขโมยรูปมา 2 รูป อย่าฟ้องเอาผิด พรบ. คอมผมนะ</p>
+					<p class="color-green">เพ้อเจ้ออออออ</p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- <script src="js/firework.js"></script> -->
+</body>
+</html>
